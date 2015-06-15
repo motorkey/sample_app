@@ -7,7 +7,19 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore the database
+/db/*.mysql2
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
